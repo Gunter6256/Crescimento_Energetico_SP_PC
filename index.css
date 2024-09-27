@@ -1,0 +1,183 @@
+html
+{
+    scroll-behavior: smooth;
+}
+
+header
+{
+    border:5px dashed rgb(255, 255, 255);
+    display: inline-flex;
+    align-items:center;
+    justify-content: center;   
+    background-color: rgb(29, 196, 185);
+    position: fixed;
+    font-size: 1.5vw;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+}
+header img
+{
+    padding-right:20px;
+    width:10%;
+    height: auto;
+}
+body
+{
+    background-image: url(img/fundo_animal.jpg);
+    nav-up: auto;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p
+{
+    line-height: 1.25;
+    font-size: 1.6vw;
+    color:rgb(255, 255, 255);
+    text-align: center;
+    width: 40%;
+    height: auto;
+}
+.introducao
+{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.introducao img
+{
+    max-width: 45%;
+    height: auto;
+    margin-bottom: 20px;
+    justify-content: center;
+    border-radius: 10%;
+}
+.hidro
+{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.hidro img
+{
+    max-width: 45%;
+    height: auto;
+    margin-bottom: 20px;
+    justify-content: center;
+    border-radius: 10%;
+}
+h3
+{
+    color:rgb(42, 207, 97);
+    text-align: center;
+    align-items: center;
+}
+.foto
+{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    
+}
+.foto img
+{
+    max-width:45%;
+    height: auto;
+    margin-bottom: 20px;
+    justify-content: center;
+    border-radius: 10%;
+}
+a
+{
+    color: blue;
+    text-decoration: none;
+}
+a:hover
+{
+    color:rgb(128, 0, 0);
+    text-decoration: underline;
+}
+.manivela
+{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.manivela img
+{
+    max-width: 45%;
+    height: auto;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+.manivela iframe
+{
+    justify-content: center;
+}
+.manivela figcaption
+{
+    color:rgb(255, 255, 255);
+    margin-right: 150px;
+    font-size: 80%;
+}
+.farol
+{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.farol img
+{
+    max-width: 60%;
+    height: auto;
+    margin-bottom: 20px;
+    justify-content: center;
+    border-radius: 20% 5% 20% 5%;
+}
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+strong
+{
+    line-height: 1.25;
+    font-size: 1.6vw;
+    color:rgb(255, 255, 255);
+    text-align: center;
+    width: 42%;
+    height: auto;
+}
+.center 
+{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+iframe
+{
+    width:500px;
+    height:300px;
+}
+h2
+{
+    color:rgb(16, 145, 196);
+    text-align: center;
+    align-items: center;
+}
+.link
+{
+    font-size: 1.2vw;
+    
+}
